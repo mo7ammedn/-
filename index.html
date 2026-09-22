@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <!-- SEO PRIMARY -->
+    <title>صلاتي - تطبيق متابعة الصلاة اليومية | مواقيت الصلاة وأذكار المسلم</title>
+    <meta name="description" content="تطبيق صلاتي المجاني لمتابعة الصلوات الخمس يومياً. سجّل صلاتك أول بأول، تتبع أذكارك، واحصل على إحصائيات. تطبيق إسلامي مجاني لوجه الله تعالى بدون إعلانات.">
+    <meta name="keywords" content="متابعة الصلاة, تطبيق الصلاة, مواقيت الصلاة, صلاتي, تذكير بالصلاة, عداد الأذكار, تطبيق إسلامي, الصلوات الخمس, صلاة الفجر, صلاة الظهر, صلاة العصر, صلاة المغرب, صلاة العشاء, أذكار الصباح, أذكار المساء, أذكار بعد الصلاة, السنن الرواتب, prayer tracker, islamic app, salah tracker, muslim prayer, azkar, tasbih">
+    <meta name="author" content="صلاتي - Salati App">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/salati-app/">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="صلاتي 🕌 تطبيق متابعة الصلاة اليومية مجاناً">
+    <meta property="og:description" content="سجّل صلاتك أول بأول وتابع أذكارك اليومية. مجاني 100% لوجه الله. بدون إعلانات، بدون تتبع.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/salati-app/">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:site_name" content="صلاتي">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="صلاتي 🕌 تطبيق متابعة الصلاة اليومية">
+    <meta name="twitter:description" content="سجّل صلاتك وتابع أذكارك. مجاني لوجه الله تعالى.">
+
+    <!-- PWA -->
+    <meta name="theme-color" content="#0c1220">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="صلاتي">
+    <meta name="application-name" content="صلاتي">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#0c1220">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230c1220'/><text x='50' y='68' font-size='55' text-anchor='middle'>🕌</text></svg>">
+
+    <!-- STRUCTURED DATA -->
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"WebApplication",
+        "name":"صلاتي - متابعة الصلاة اليومية",
+        "alternateName":["Salati","تطبيق صلاتي","متابعة الصلاة","Prayer Tracker"],
+        "description":"تطبيق إسلامي مجاني لمتابعة الصلوات الخمس وتسجيلها أول بأول مع عداد أذكار وإحصائيات. لوجه الله تعالى بدون إعلانات.",
+        "url":"https://YOUR-USERNAME.github.io/salati-app/",
+        "applicationCategory":"LifestyleApplication",
+        "operatingSystem":"Web, Android, iOS",
+        "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+        "inLanguage":["ar","en"],
+        "featureList":["تتبع الصلوات الخمس","السنن الرواتب","عداد الأذكار","إحصائيات مفصلة","يعمل بدون إنترنت","مجاني بدون إعلانات"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"كيف أتابع صلاتي اليومية؟","acceptedAnswer":{"@type":"Answer","text":"استخدم تطبيق صلاتي لتسجيل كل صلاة بعد أدائها. اضغط على الصلاة وسيتم تسجيلها مع عرض إحصائيات يومية وأسبوعية."}},
+            {"@type":"Question","name":"هل تطبيق صلاتي مجاني؟","acceptedAnswer":{"@type":"Answer","text":"نعم، مجاني 100% بدون إعلانات. صُنع لوجه الله تعالى."}},
+            {"@type":"Question","name":"هل يعمل بدون إنترنت؟","acceptedAnswer":{"@type":"Answer","text":"نعم، يعمل بالكامل بدون إنترنت وبياناتك محفوظة على جهازك."}},
+            {"@type":"Question","name":"ما هي السنن الرواتب؟","acceptedAnswer":{"@type":"Answer","text":"ركعتان قبل الفجر، أربع قبل الظهر وركعتان بعدها، ركعتان بعد المغرب، ركعتان بعد العشاء، والوتر."}},
+            {"@type":"Question","name":"كيف أثبت التطبيق على الموبايل؟","acceptedAnswer":{"@type":"Answer","text":"على أندرويد: افتح في Chrome واضغط إضافة للشاشة الرئيسية. على آيفون: افتح في Safari واضغط مشاركة ثم إضافة للشاشة الرئيسية."}}
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org",
+        "@type":"Organization",
+        "name":"صلاتي",
+        "url":"https://YOUR-USERNAME.github.io/salati-app/",
+        "description":"تطبيق إسلامي مجاني لمتابعة الصلاة والأذكار"
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+        :root{--bg:#0c1220;--bg2:#1a2744;--card:rgba(255,255,255,0.06);--gold:#ffd700;--goldL:#f0c27f;--green:#00c853;--greenL:#69f0ae;--txt:#fff;--txt2:rgba(255,255,255,0.7);--txt3:rgba(255,255,255,0.4);--brd:rgba(255,255,255,0.08)}
+        *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+        body{font-family:'Cairo',sans-serif;min-height:100vh;min-height:100dvh;background:linear-gradient(135deg,var(--bg),var(--bg2),#0f3460);color:var(--txt);overflow-x:hidden;padding-bottom:90px}
+        ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.2);border-radius:10px}
+        body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background-image:radial-gradient(2px 2px at 20px 30px,#fff,transparent),radial-gradient(1px 1px at 90px 40px,#fff,transparent),radial-gradient(2px 2px at 160px 30px,#fff,transparent),radial-gradient(1px 1px at 250px 60px,rgba(255,255,255,0.5),transparent),radial-gradient(1px 1px at 350px 45px,rgba(255,255,255,0.6),transparent);background-size:400px 100px;animation:tw 4s ease-in-out infinite alternate;z-index:0;pointer-events:none}
+        @keyframes tw{0%{opacity:.4}100%{opacity:1}}
+        .seo-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+        .pg{display:none;max-width:520px;margin:0 auto;padding:20px;position:relative;z-index:1;animation:fi .4s ease}
+        .pg.act{display:block}
+        @keyframes fi{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+
+        /* NAV */
+        .bnav{position:fixed;bottom:0;left:0;width:100%;background:rgba(12,18,32,0.95);backdrop-filter:blur(20px);border-top:1px solid var(--brd);display:flex;justify-content:space-around;padding:8px 0 max(8px,env(safe-area-inset-bottom));z-index:50}
+        .nb{display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;color:var(--txt3);cursor:pointer;padding:6px 12px;border-radius:12px;transition:.3s;font-family:'Cairo';font-size:.65em;min-width:60px}
+        .nb .ni{font-size:1.6em;transition:transform .3s}
+        .nb.act{color:var(--gold)}.nb.act .ni{transform:scale(1.2)}
+
+        /* HEADER */
+        .hdr{text-align:center;padding:25px 15px 15px}
+        .hdr-i{font-size:55px;animation:fl 3s ease-in-out infinite}
+        @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+        .hdr h1{font-size:2em;font-weight:900;background:linear-gradient(135deg,var(--gold),var(--goldL));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .hdr p{color:var(--txt2);font-size:.9em}
+
+        /* CARD */
+        .cd{background:var(--card);border-radius:18px;padding:18px;margin-bottom:14px;backdrop-filter:blur(10px);border:1px solid var(--brd);transition:.3s}
+
+        /* DATE */
+        .dt-cd{text-align:center;padding:15px}
+        .dt-cd .dn{font-size:1.15em;font-weight:800;color:var(--gold)}
+        .dt-cd .dd{font-size:.85em;color:var(--txt2);margin-top:3px}
+        .dt-cd .dh{font-size:.8em;color:var(--txt3);margin-top:2px}
+
+        /* STATS ROW */
+        .sr{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+        .sb{background:var(--card);border-radius:16px;padding:14px 8px;text-align:center;backdrop-filter:blur(10px);border:1px solid var(--brd);transition:.3s}
+        .sb:hover{transform:translateY(-3px)}
+        .sn{font-size:1.7em;font-weight:900;color:var(--gold);line-height:1}
+        .sl{font-size:.7em;color:var(--txt3);margin-top:4px}
+
+        /* RING */
+        .pa{text-align:center;margin:15px 0}
+        .rw{position:relative;display:inline-block}
+        .pr{transform:rotate(-90deg)}
+        .rb{fill:none;stroke:rgba(255,255,255,0.08);stroke-width:8}
+        .rf{fill:none;stroke:url(#g1);stroke-width:8;stroke-linecap:round;transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)}
+        .rt{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center}
+        .rp{font-size:1.8em;font-weight:900;color:var(--gold)}
+        .rl{font-size:.7em;color:var(--txt3)}
+
+        /* SECTION TITLE */
+        .st{font-size:1.1em;font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+
+        /* PRAYER ITEM */
+        .pi{background:var(--card);border-radius:16px;padding:14px 18px;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;border:1px solid var(--brd);cursor:pointer;transition:all .4s cubic-bezier(.175,.885,.32,1.275);position:relative;overflow:hidden;user-select:none}
+        .pi::after{content:'';position:absolute;top:0;right:0;width:4px;height:100%;border-radius:0 4px 4px 0;background:rgba(255,255,255,0.15);transition:.3s}
+        .pi.dn{background:rgba(0,200,83,0.08);border-color:rgba(0,200,83,0.2)}
+        .pi.dn::after{background:linear-gradient(180deg,var(--green),var(--greenL));box-shadow:0 0 12px rgba(0,200,83,0.4)}
+        .pi:active{transform:scale(0.97)}
+        .pl{display:flex;align-items:center;gap:14px}
+        .pic{width:46px;height:46px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:1.3em}
+        .if{background:linear-gradient(135deg,#1a237e,#3949ab)}.id{background:linear-gradient(135deg,#ff8f00,#ffca28)}.ia{background:linear-gradient(135deg,#ef6c00,#ff9800)}.im{background:linear-gradient(135deg,#4a148c,#7c43bd)}.ii{background:linear-gradient(135deg,#0d1b3e,#1a3a6b)}.is{background:linear-gradient(135deg,#e65100,#ff6d00)}
+        .pn{font-size:1.05em;font-weight:700}
+        .ps{font-size:.75em;color:var(--txt3);margin-top:1px}
+        .prr{display:flex;align-items:center;gap:10px}
+        .pst{font-size:.75em;color:var(--txt3);min-width:48px;text-align:center}
+        .pi.dn .pst{color:var(--greenL);font-weight:700}
+        .pck{width:34px;height:34px;border-radius:50%;border:2.5px solid rgba(255,255,255,0.25);background:transparent;display:flex;align-items:center;justify-content:center;transition:.4s;font-size:.9em;color:transparent;pointer-events:none}
+        .pi.dn .pck{background:linear-gradient(135deg,var(--green),var(--greenL));border-color:var(--green);color:#fff;box-shadow:0 0 15px rgba(0,200,83,0.4)}
+
+        /* SUNNAH */
+        .pi.sun{background:rgba(255,215,0,0.05);border-color:rgba(255,215,0,0.1)}
+        .pi.sun.dn{background:rgba(255,215,0,0.1);border-color:rgba(255,215,0,0.25)}
+        .pi.sun.dn::after{background:linear-gradient(180deg,var(--gold),var(--goldL))}
+        .pi.sun.dn .pck{background:linear-gradient(135deg,var(--gold),var(--goldL));border-color:var(--gold)}
+        .pi.sun.dn .pst{color:var(--gold)}
+
+        /* STREAK */
+        .stk{background:linear-gradient(135deg,rgba(255,215,0,0.08),rgba(255,152,0,0.08));border-color:rgba(255,215,0,0.15);text-align:center;padding:22px}
+        .stk-l{font-size:.85em;color:var(--txt2)}
+        .stk-n{font-size:3em;font-weight:900;color:var(--gold);line-height:1.1}
+        .stk-r{display:flex;justify-content:center;gap:6px;margin-top:15px}
+        .sd{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:.65em;font-weight:700;background:rgba(255,255,255,0.06);color:var(--txt3)}
+        .sd.f{background:linear-gradient(135deg,var(--green),var(--greenL));color:#fff}
+        .sd.t{border:2px solid var(--gold);color:var(--gold)}
+
+        /* QUOTE */
+        .qc{background:linear-gradient(135deg,rgba(63,81,181,0.1),rgba(156,39,176,0.1));border-color:rgba(156,39,176,0.15);text-align:center;padding:22px 18px}
+        .qci{font-size:1.5em;margin-bottom:8px}
+        .qct{font-size:.95em;line-height:1.9;color:rgba(255,255,255,0.85);font-weight:600}
+        .qcs{font-size:.78em;color:var(--txt3);margin-top:8px}
+
+        /* STATS PAGE */
+        .sbc{text-align:center;padding:25px}
+        .sbn{font-size:3.5em;font-weight:900;color:var(--gold);line-height:1}
+        .sbl{color:var(--txt2);font-size:.9em;margin-top:5px}
+        .cr{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+        .cl{width:55px;text-align:left;font-size:.8em;font-weight:700;color:var(--txt2)}
+        .cbg{flex:1;height:24px;background:rgba(255,255,255,0.06);border-radius:12px;overflow:hidden}
+        .cbf{height:100%;border-radius:12px;background:linear-gradient(90deg,var(--gold),var(--green));transition:width 1s;display:flex;align-items:center;justify-content:flex-end;padding-right:8px;font-size:.65em;font-weight:800;color:#fff;min-width:30px}
+        .hm{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:10px}
+        .hh{text-align:center;font-size:.65em;color:var(--txt3);font-weight:600;padding-bottom:4px}
+        .hc{aspect-ratio:1;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.65em;font-weight:700}
+        .hc.l0{background:rgba(255,255,255,0.04);color:var(--txt3)}.hc.l1{background:rgba(0,200,83,0.12);color:rgba(0,200,83,0.7)}.hc.l2{background:rgba(0,200,83,0.2);color:rgba(0,200,83,0.8)}.hc.l3{background:rgba(0,200,83,0.3);color:#fff}.hc.l4{background:rgba(0,200,83,0.4);color:#fff}.hc.l5{background:linear-gradient(135deg,var(--green),var(--greenL));color:#fff}
+        .hc.tc{border:2px solid var(--gold)}
+
+        /* AZKAR */
+        .azc{padding:18px}
+        .azh{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+        .azt{font-size:1em;font-weight:800;color:var(--gold)}
+        .azb{background:rgba(255,215,0,0.15);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:.8em;font-weight:800}
+        .azx{font-size:.95em;line-height:2;color:rgba(255,255,255,0.85);text-align:center;padding:10px 0}
+        .aza{display:flex;align-items:center;justify-content:center;gap:15px;margin-top:10px}
+        .azbn{width:70px;height:70px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--goldL));border:none;font-size:1.8em;font-weight:900;color:var(--bg);cursor:pointer;transition:.2s;box-shadow:0 4px 20px rgba(255,215,0,0.3)}
+        .azbn:active{transform:scale(0.9)}
+        .azn{font-size:2.5em;font-weight:900;color:var(--gold);min-width:60px;text-align:center}
+        .azr{background:none;border:1px solid var(--brd);color:var(--txt3);padding:6px 16px;border-radius:10px;font-family:'Cairo';font-size:.75em;cursor:pointer;margin-top:10px}
+        .azp{width:100%;height:6px;background:rgba(255,255,255,0.08);border-radius:3px;margin-top:10px;overflow:hidden}
+        .azpf{height:100%;background:linear-gradient(90deg,var(--gold),var(--green));border-radius:3px;transition:width .4s}
+
+        /* SETTINGS */
+        .si{display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid var(--brd)}
+        .si:last-child{border:none}
+        .sil{display:flex;align-items:center;gap:12px}
+        .sii{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2em;background:rgba(255,255,255,0.08)}
+        .sin{font-size:.95em;font-weight:700}
+        .sid{font-size:.75em;color:var(--txt3)}
+        .tg{width:50px;height:28px;background:rgba(255,255,255,0.15);border-radius:14px;position:relative;cursor:pointer;transition:.3s;border:none}
+        .tg.on{background:var(--green)}
+        .tg::after{content:'';width:22px;height:22px;border-radius:50%;background:#fff;position:absolute;top:3px;right:3px;transition:.3s}
+        .tg.on::after{right:calc(100% - 25px)}
+        .ab{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:14px;border:1px solid var(--brd);background:var(--card);color:var(--txt);font-family:'Cairo';font-size:.9em;font-weight:700;cursor:pointer;transition:.3s;margin-bottom:8px}
+        .ab:hover{background:rgba(255,255,255,0.1)}
+        .ab.dg{border-color:rgba(244,67,54,0.3);color:#ef5350}
+        .ab.sc{border-color:rgba(0,200,83,0.3);color:var(--greenL)}
+
+        /* INSTALL */
+        .ib{background:linear-gradient(135deg,rgba(33,150,243,0.15),rgba(0,150,136,0.15));border-color:rgba(33,150,243,0.25);display:flex;align-items:center;gap:12px;padding:14px 18px;cursor:pointer}
+        .ibi{font-size:2em}.ibt{flex:1}.ibt .t{font-weight:800;font-size:.9em}.ibt .d{font-size:.75em;color:var(--txt3)}
+        .ibn{background:linear-gradient(135deg,#2196f3,#00bcd4);border:none;color:#fff;padding:8px 18px;border-radius:10px;font-family:'Cairo';font-weight:700;font-size:.8em;cursor:pointer}
+
+        /* TOAST */
+        .toast{position:fixed;bottom:100px;left:50%;transform:translateX(-50%) translateY(80px);background:linear-gradient(135deg,var(--green),var(--greenL));color:#fff;padding:12px 24px;border-radius:30px;font-family:'Cairo';font-weight:700;font-size:.85em;box-shadow:0 5px 25px rgba(0,200,83,0.4);transition:transform .5s cubic-bezier(.175,.885,.32,1.275);z-index:200;white-space:nowrap;max-width:90%;text-align:center}
+        .toast.sh{transform:translateX(-50%) translateY(0)}
+        .toast.gl{background:linear-gradient(135deg,var(--gold),var(--goldL));color:var(--bg);box-shadow:0 5px 25px rgba(255,215,0,0.4)}
+
+        /* CELEBRATION */
+        .cel{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100}
+        .conf{position:absolute;border-radius:3px;animation:cd 3s ease-out forwards}
+        @keyframes cd{0%{transform:translateY(-20px) rotate(0) scale(1);opacity:1}100%{transform:translateY(100vh) rotate(1080deg) scale(.3);opacity:0}}
+
+        /* MODAL */
+        .mo{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:300;justify-content:center;align-items:center;padding:20px}
+        .mo.sh{display:flex}
+        .mob{background:var(--bg2);border-radius:24px;padding:30px;max-width:380px;width:100%;text-align:center;border:1px solid var(--brd);animation:mi .4s}
+        @keyframes mi{from{transform:scale(.8);opacity:0}to{transform:scale(1);opacity:1}}
+        .moi{font-size:3em;margin-bottom:15px}
+        .mot{font-size:1.2em;font-weight:800;margin-bottom:8px}
+        .mod{font-size:.85em;color:var(--txt2);margin-bottom:20px;line-height:1.7}
+        .mobt{display:flex;gap:10px}
+        .mobtn{flex:1;padding:12px;border-radius:14px;border:none;font-family:'Cairo';font-size:.9em;font-weight:700;cursor:pointer}
+        .mobtn.c{background:rgba(255,255,255,0.1);color:var(--txt2)}
+        .mobtn.ok{background:linear-gradient(135deg,#f44336,#e53935);color:#fff}
+
+        /* SHARE BANNER */
+        .share-cd{background:linear-gradient(135deg,rgba(0,200,83,0.08),rgba(105,240,174,0.08));border-color:rgba(0,200,83,0.15);text-align:center;padding:20px}
+        .share-cd p{font-size:.85em;color:var(--txt2);margin-bottom:12px}
+        .share-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+        .share-btn{padding:8px 16px;border-radius:12px;border:1px solid var(--brd);background:var(--card);color:var(--txt);font-family:'Cairo';font-size:.8em;font-weight:700;cursor:pointer;transition:.3s;display:flex;align-items:center;gap:5px}
+        .share-btn:hover{background:rgba(255,255,255,0.12)}
+
+        @media(max-width:380px){.hdr h1{font-size:1.7em}.sn{font-size:1.4em}.sd{width:28px;height:28px;font-size:.6em}.pi{padding:12px 14px}.azbn{width:60px;height:60px;font-size:1.5em}}
+    </style>
+</head>
+<body>
+
+<!-- SEO CONTENT -->
+<div class="seo-only" aria-hidden="true">
+    <h2>تطبيق صلاتي - أفضل تطبيق لمتابعة الصلاة اليومية</h2>
+    <p>تطبيق صلاتي هو تطبيق إسلامي مجاني يساعدك على متابعة الصلوات الخمس (الفجر والظهر والعصر والمغرب والعشاء) وتسجيلها أول بأول. يتضمن عداد أذكار شامل لأذكار الصباح والمساء وأذكار بعد الصلاة والتسبيح والاستغفار والصلاة على النبي محمد صلى الله عليه وسلم. يوفر إحصائيات مفصلة عن التزامك بالصلاة مع خريطة حرارية وأعمدة بيانية. يعمل بدون إنترنت ويحفظ بياناتك محلياً لضمان الخصوصية التامة. صُنع لوجه الله تعالى بدون أي إعلانات أو تتبع.</p>
+    <h3>مميزات تطبيق صلاتي</h3>
+    <ul>
+        <li>تتبع الصلوات الخمس المفروضة: صلاة الفجر وصلاة الظهر وصلاة العصر وصلاة المغرب وصلاة العشاء</li>
+        <li>متابعة السنن الرواتب: سنة الفجر والظهر والمغرب والعشاء وصلاة الوتر</li>
+        <li>عداد أذكار: سبحان الله والحمد لله والله أكبر ولا إله إلا الله والاستغفار والصلاة على النبي والحوقلة والتسبيح</li>
+        <li>إحصائيات تفصيلية يومية وأسبوعية وشهرية</li>
+        <li>تتبع أيام الالتزام المتتالية بالصلاة</li>
+        <li>خريطة حرارية لآخر 4 أسابيع</li>
+        <li>تذكيرات ذكية بالصلاة</li>
+        <li>يعمل بدون إنترنت - تطبيق PWA</li>
+        <li>مجاني 100% بدون إعلانات</li>
+        <li>يدعم التاريخ الهجري والميلادي</li>
+        <li>تصدير واستيراد البيانات</li>
+        <li>يمكن تثبيته كتطبيق على الأندرويد والآيفون</li>
+        <li>تصميم جميل يدعم الوضع الليلي</li>
+    </ul>
+    <h3>أسئلة شائعة</h3>
+    <p>كيف أحافظ على صلاتي؟ استخدم تطبيق صلاتي لتسجيل كل صلاة. ما هي مواقيت الصلاة؟ الفجر قبل شروق الشمس والظهر عند الزوال والعصر بعد الظهر والمغرب بعد الغروب والعشاء في الليل. ما فضل الصلاة؟ قال الله تعالى إن الصلاة تنهى عن الفحشاء والمنكر. ما حكم ترك الصلاة؟ الصلاة ركن من أركان الإسلام الخمسة وهي أول ما يُحاسب عليه العبد يوم القيامة.</p>
+</div>
+
+<!-- ===== HOME PAGE ===== -->
+<main class="pg act" id="pg-home" role="main">
+    <header class="hdr">
+        <div class="hdr-i" role="img" aria-label="مسجد">🕌</div>
+        <h1>صلاتي</h1>
+        <p>حافظ على صلاتك... تحفظك في الدنيا والآخرة</p>
+    </header>
+
+    <section class="cd dt-cd" aria-label="التاريخ"><div class="dn" id="dN"></div><div class="dd" id="dD"></div><div class="dh" id="dH"></div></section>
+
+    <section class="sr" aria-label="إحصائيات سريعة">
+        <div class="sb"><div class="sn" id="xT">0</div><div class="sl">صلوات اليوم</div></div>
+        <div class="sb"><div class="sn" id="xW">0</div><div class="sl">هذا الأسبوع</div></div>
+        <div class="sb"><div class="sn" id="xS">0</div><div class="sl">🔥 متتالية</div></div>
+    </section>
+
+    <section class="pa" aria-label="نسبة الإنجاز">
+        <div class="rw">
+            <svg class="pr" width="140" height="140" aria-hidden="true"><defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#ffd700"/><stop offset="100%" style="stop-color:#00c853"/></linearGradient></defs><circle class="rb" cx="70" cy="70" r="58"/><circle class="rf" id="rF" cx="70" cy="70" r="58"/></svg>
+            <div class="rt"><div class="rp" id="rP">0%</div><div class="rl">إنجاز اليوم</div></div>
+        </div>
+    </section>
+
+    <section aria-label="الصلوات المفروضة"><h2 class="st">🕐 الصلوات المفروضة</h2><div id="fL"></div></section>
+    <section aria-label="السنن الرواتب"><h2 class="st" id="snT" style="margin-top:18px">✨ السنن الرواتب</h2><div id="snL"></div></section>
+
+    <section class="cd stk" aria-label="أيام متتالية"><div class="stk-l">🔥 أيام متتالية بكل الفروض</div><div class="stk-n" id="skN">0</div><div class="stk-r" id="skD"></div></section>
+
+    <!-- SHARE -->
+    <section class="cd share-cd" aria-label="مشاركة التطبيق">
+        <p>📢 ساعد غيرك يحافظ على صلاته - انشر التطبيق لوجه الله</p>
+        <div class="share-btns">
+            <button class="share-btn" onclick="shareApp('whatsapp')">💬 واتساب</button>
+            <button class="share-btn" onclick="shareApp('telegram')">✈️ تليجرام</button>
+            <button class="share-btn" onclick="shareApp('twitter')">🐦 تويتر</button>
+            <button class="share-btn" onclick="shareApp('copy')">📋 نسخ الرابط</button>
+        </div>
+    </section>
+
+    <section class="cd qc" aria-label="آية أو حديث"><div class="qci">📖</div><blockquote class="qct" id="qT"></blockquote><cite class="qcs" id="qS"></cite></section>
+</main>
+
+<!-- ===== STATS PAGE ===== -->
+<section class="pg" id="pg-stats" aria-label="الإحصائيات">
+    <h2 class="st" style="font-size:1.4em;margin-bottom:5px">📊 الإحصائيات</h2>
+    <p style="color:var(--txt3);font-size:.85em;margin-bottom:18px">تتبع أداءك في الصلاة</p>
+    <div class="sr">
+        <div class="sb"><div class="sn" id="eT">0</div><div class="sl">إجمالي الصلوات</div></div>
+        <div class="sb"><div class="sn" id="eD">0</div><div class="sl">أيام مسجلة</div></div>
+        <div class="sb"><div class="sn" id="eB">0</div><div class="sl">أفضل سلسلة</div></div>
+    </div>
+    <div class="cd sbc"><div class="sbn" id="eA">0%</div><div class="sbl">متوسط الالتزام بالفروض</div></div>
+    <div class="cd"><h3 class="st">📈 نسبة كل صلاة (آخر 30 يوم)</h3><div id="pB"></div></div>
+    <div class="cd"><h3 class="st">🗓️ آخر 4 أسابيع</h3><div class="hm" id="hM"></div></div>
+</section>
+
+<!-- ===== AZKAR PAGE ===== -->
+<section class="pg" id="pg-azkar" aria-label="الأذكار">
+    <h2 class="st" style="font-size:1.4em;margin-bottom:5px">📿 الأذكار والتسبيح</h2>
+    <p style="color:var(--txt3);font-size:.85em;margin-bottom:18px">سبّح واذكر الله - أذكار الصباح والمساء</p>
+    <div id="aL"></div>
+</section>
+
+<!-- ===== SETTINGS PAGE ===== -->
+<section class="pg" id="pg-settings" aria-label="الإعدادات">
+    <h2 class="st" style="font-size:1.4em;margin-bottom:5px">⚙️ الإعدادات</h2>
+    <p style="color:var(--txt3);font-size:.85em;margin-bottom:18px">تخصيص التطبيق</p>
+
+    <div class="cd ib" id="instB" style="display:none" onclick="instApp()">
+        <div class="ibi">📲</div><div class="ibt"><div class="t">تثبيت التطبيق</div><div class="d">أضفه للشاشة الرئيسية</div></div><button class="ibn">تثبيت</button>
+    </div>
+
+    <div class="cd">
+        <div class="si"><div class="sil"><div class="sii">🌙</div><div><div class="sin">السنن الرواتب</div><div class="sid">إظهار السنن</div></div></div><button class="tg on" id="t1" onclick="tgS('sunnah')" aria-label="تفعيل السنن"></button></div>
+        <div class="si"><div class="sil"><div class="sii">🔔</div><div><div class="sin">التذكيرات</div><div class="sid">تذكير بالصلاة</div></div></div><button class="tg" id="t2" onclick="tgS('notif')" aria-label="تفعيل التذكيرات"></button></div>
+        <div class="si"><div class="sil"><div class="sii">🎉</div><div><div class="sin">الاحتفال</div><div class="sid">تأثيرات إتمام الصلوات</div></div></div><button class="tg on" id="t3" onclick="tgS('celeb')" aria-label="تفعيل الاحتفال"></button></div>
+        <div class="si"><div class="sil"><div class="sii">🔊</div><div><div class="sin">الاهتزاز</div><div class="sid">اهتزاز عند الضغط</div></div></div><button class="tg on" id="t4" onclick="tgS('vibrate')" aria-label="تفعيل الاهتزاز"></button></div>
+    </div>
+
+    <div style="margin-top:14px">
+        <button class="ab" onclick="expD()">📤 تصدير البيانات</button>
+        <button class="ab" onclick="document.getElementById('iF').click()">📥 استيراد البيانات</button>
+        <input type="file" id="iF" accept=".json" style="display:none" onchange="impD(event)">
+        <button class="ab sc" onclick="rToday()">🔄 إعادة تعيين اليوم</button>
+        <button class="ab dg" onclick="sMo()">🗑️ حذف كل البيانات</button>
+    </div>
+
+    <div class="cd" style="margin-top:14px;text-align:center;padding:20px">
+        <div style="font-size:1.5em;margin-bottom:5px">📿</div>
+        <div style="font-weight:800;color:var(--gold)">صلاتي v3.0</div>
+        <div style="font-size:.75em;color:var(--txt3)">تطبيق متابعة الصلاة والأذكار</div>
+        <div style="font-size:.7em;color:var(--txt3);margin-top:4px">صُنع بـ ❤️ لوجه الله تعالى - بدون إعلانات</div>
+        <div style="font-size:.65em;color:var(--txt3);margin-top:8px">الدال على الخير كفاعله - شارك التطبيق</div>
+    </div>
+</section>
+
+<!-- NAV -->
+<nav class="bnav" aria-label="التنقل">
+    <button class="nb act" onclick="go('home',this)" aria-label="الرئيسية"><span class="ni">🏠</span>الرئيسية</button>
+    <button class="nb" onclick="go('stats',this)" aria-label="الإحصائيات"><span class="ni">📊</span>الإحصائيات</button>
+    <button class="nb" onclick="go('azkar',this)" aria-label="الأذكار"><span class="ni">📿</span>الأذكار</button>
+    <button class="nb" onclick="go('settings',this)" aria-label="الإعدادات"><span class="ni">⚙️</span>الإعدادات</button>
+</nav>
+
+<div class="toast" id="tst"></div>
+<div class="cel" id="cel"></div>
+<div class="mo" id="rMo"><div class="mob"><div class="moi">⚠️</div><div class="mot">حذف كل البيانات</div><div class="mod">هل أنت متأكد؟ سيتم حذف جميع البيانات نهائياً!</div><div class="mobt"><button class="mobtn c" onclick="hMo()">إلغاء</button><button class="mobtn ok" onclick="rAll()">حذف</button></div></div></div>
+
+<script>
+// ==========================================
+// CONFIG
+// ==========================================
+const F=[
+    {i:'fajr',n:'الفجر',ic:'🌙',t:'الفجر - قبل الشروق',c:'if'},
+    {i:'dhuhr',n:'الظهر',ic:'☀️',t:'الظهر - منتصف النهار',c:'id'},
+    {i:'asr',n:'العصر',ic:'🌤️',t:'العصر - بعد الظهر',c:'ia'},
+    {i:'maghrib',n:'المغرب',ic:'🌅',t:'المغرب - بعد الغروب',c:'im'},
+    {i:'isha',n:'العشاء',ic:'🌑',t:'العشاء - الليل',c:'ii'}
+];
+const S=[
+    {i:'sf',n:'سنة الفجر',ic:'🌙',t:'ركعتان قبل الفجر',c:'if'},
+    {i:'sdb',n:'سنة الظهر القبلية',ic:'☀️',t:'٤ ركعات قبل الظهر',c:'id'},
+    {i:'sda',n:'سنة الظهر البعدية',ic:'☀️',t:'ركعتان بعد الظهر',c:'id'},
+    {i:'sm',n:'سنة المغرب',ic:'🌅',t:'ركعتان بعد المغرب',c:'im'},
+    {i:'si',n:'سنة العشاء',ic:'🌑',t:'ركعتان بعد العشاء',c:'ii'},
+    {i:'witr',n:'الوتر',ic:'⭐',t:'ركعة أو ثلاث',c:'is'}
+];
+const AZ=[
+    {i:'sub',t:'سبحان الله',x:'سُبْحَانَ اللَّهِ',g:33},
+    {i:'hmd',t:'الحمد لله',x:'الْحَمْدُ لِلَّهِ',g:33},
+    {i:'akb',t:'الله أكبر',x:'اللَّهُ أَكْبَرُ',g:33},
+    {i:'tah',t:'التهليل',x:'لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ',g:10},
+    {i:'ist',t:'الاستغفار',x:'أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ وَأَتُوبُ إِلَيْهِ',g:100},
+    {i:'sal',t:'الصلاة على النبي ﷺ',x:'اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ',g:100},
+    {i:'haw',t:'الحوقلة',x:'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ',g:33},
+    {i:'tas',t:'التسبيح الجامع',x:'سُبْحَانَ اللَّهِ وَبِحَمْدِهِ سُبْحَانَ اللَّهِ الْعَظِيمِ',g:100}
+];
+const Q=[
+    {t:'إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا',s:'سورة النساء - ١٠٣'},
+    {t:'إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ',s:'سورة العنكبوت - ٤٥'},
+    {t:'حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ',s:'سورة البقرة - ٢٣٨'},
+    {t:'أول ما يُحاسَب عليه العبد يوم القيامة الصلاة',s:'رواه الترمذي'},
+    {t:'بين الرجل وبين الشرك والكفر ترك الصلاة',s:'رواه مسلم'},
+    {t:'من حافظ على الصلوات الخمس كانت له نوراً وبرهاناً ونجاةً يوم القيامة',s:'رواه أحمد'},
+    {t:'أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ',s:'سورة الإسراء - ٧٨'},
+    {t:'قال ﷺ: خمس صلوات كتبهن الله على العباد فمن جاء بهن لم يضيع منهن شيئاً كان له عند الله عهد أن يدخله الجنة',s:'رواه أبو داود'},
+    {t:'وَأْمُرْ أَهْلَكَ بِالصَّلَاةِ وَاصْطَبِرْ عَلَيْهَا',s:'سورة طه - ١٣٢'},
+    {t:'إن أحب الأعمال إلى الله الصلاة على وقتها',s:'متفق عليه'}
+];
+const DN=['الأحد','الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
+const DS=['أح','إث','ثل','أر','خم','جم','سب'];
+const APP_URL='https://YOUR-USERNAME.github.io/salati-app/';
+const SHARE_TEXT='📿 تطبيق صلاتي - تابع صلاتك أول بأول\nتطبيق إسلامي مجاني لوجه الله تعالى\n🔗 ';
+
+// ==========================================
+// STORAGE
+// ==========================================
+const tk=()=>new Date().toISOString().split('T')[0];
+const gD=()=>{try{return JSON.parse(localStorage.getItem('s_d')||'{}')}catch{return{}}};
+const sD=d=>localStorage.setItem('s_d',JSON.stringify(d));
+const gS=()=>{try{return JSON.parse(localStorage.getItem('s_s')||'{}')}catch{return{}}};
+const sS=s=>localStorage.setItem('s_s',JSON.stringify(s));
+const gA=()=>{try{return JSON.parse(localStorage.getItem('s_a')||'{}')}catch{return{}}};
+const sA=a=>localStorage.setItem('s_a',JSON.stringify(a));
+const gDD=k=>(gD()[k]||{});
+const sDP=(k,p,v)=>{const d=gD();if(!d[k])d[k]={};d[k][p]=v;sD(d)};
+
+// ==========================================
+// NAV
+// ==========================================
+function go(n,b){
+    document.querySelectorAll('.pg').forEach(p=>p.classList.remove('act'));
+    document.getElementById('pg-'+n).classList.add('act');
+    document.querySelectorAll('.nb').forEach(x=>x.classList.remove('act'));
+    if(b)b.classList.add('act');
+    if(n==='stats')bStats();if(n==='azkar')bAzkar();if(n==='settings')lSet();
+    window.scrollTo({top:0,behavior:'smooth'});
+}
+
+// ==========================================
+// DATE
+// ==========================================
+function uDate(){
+    const n=new Date();
+    document.getElementById('dN').textContent=DN[n.getDay()];
+    document.getElementById('dD').textContent=n.toLocaleDateString('ar-EG',{year:'numeric',month:'long',day:'numeric'});
+    try{document.getElementById('dH').textContent=n.toLocaleDateString('ar-SA-u-ca-islamic-umalqura',{day:'numeric',month:'long',year:'numeric'})}catch{document.getElementById('dH').textContent=''}
+}
+
+// ==========================================
+// PRAYER LIST
+// ==========================================
+function bPI(p,tp){
+    const d=gDD(tk()),done=d[p.i]||false;
+    const cls=tp==='s'?' sun':'';
+    return`<div class="pi${done?' dn':''}${cls}" data-i="${p.i}" data-t="${tp}" onclick="tP('${p.i}','${tp}')" role="button" aria-label="${p.n} - ${done?'تمت':'لم تُصلَّ'}" tabindex="0">
+    <div class="pl"><div class="pic ${p.c}">${p.ic}</div><div><div class="pn">${p.n}</div><div class="ps">${p.t}</div></div></div>
+    <div class="prr"><span class="pst">${done?'تمت ✓':'لم تُصلَّ'}</span><div class="pck">✓</div></div></div>`;
+}
+function bFard(){document.getElementById('fL').innerHTML=F.map(p=>bPI(p,'f')).join('')}
+function bSunnah(){
+    const s=gS(),sh=s.sunnah!==false,el=document.getElementById('snL'),ti=document.getElementById('snT');
+    if(!sh){el.style.display='none';ti.style.display='none';return}
+    el.style.display='block';ti.style.display='flex';
+    el.innerHTML=S.map(p=>bPI(p,'s')).join('');
+}
+
+// ==========================================
+// TOGGLE PRAYER
+// ==========================================
+function tP(id,tp){
+    const k=tk(),d=gDD(k),nv=!d[id];sDP(k,id,nv);
+    const card=document.querySelector(`.pi[data-i="${id}"]`);
+    if(card){
+        card.classList.toggle('dn',nv);
+        card.querySelector('.pst').textContent=nv?'تمت ✓':'لم تُصلَّ';
+        card.style.transform='scale(0.96)';setTimeout(()=>card.style.transform='',200);
+    }
+    const s=gS();if(s.vibrate!==false&&navigator.vibrate)navigator.vibrate(nv?[40]:[20]);
+    const pn=[...F,...S].find(p=>p.i===id)?.n||'';
+    toast(nv?`✅ ${pn} - بارك الله فيك`:`↩️ تم إلغاء ${pn}`,nv?'':'');
+    uProg();
+    if(tp==='f'&&nv){
+        const u=gDD(k);if(F.every(f=>u[f.i])){if(s.celeb!==false)celeb();setTimeout(()=>toast('🎉 ما شاء الله! أتممت جميع الفروض','gl'),600)}
+    }
+}
+
+// ==========================================
+// PROGRESS
+// ==========================================
+function uProg(){
+    const d=gDD(tk()),fc=F.filter(f=>d[f.i]).length,pct=Math.round(fc/5*100);
+    const circ=2*Math.PI*58,r=document.getElementById('rF');
+    r.style.strokeDasharray=circ;r.style.strokeDashoffset=circ-(pct/100)*circ;
+    document.getElementById('rP').textContent=pct+'%';
+    document.getElementById('xT').textContent=fc;
+    const data=gD();let wc=0;
+    for(let i=0;i<7;i++){const x=new Date();x.setDate(x.getDate()-i);const k=x.toISOString().split('T')[0];if(data[k])wc+=F.filter(f=>data[k][f.i]).length}
+    document.getElementById('xW').textContent=wc;
+    const st=cStrk();
+    document.getElementById('xS').textContent=st;
+    document.getElementById('skN').textContent=st;
+    bDots();
+}
+function cStrk(){
+    const data=gD();let st=0;const td=gDD(tk()),tc=F.every(f=>td[f.i]);
+    for(let i=tc?0:1;i<365;i++){const d=new Date();d.setDate(d.getDate()-i);const k=d.toISOString().split('T')[0];if(data[k]&&F.every(f=>data[k][f.i]))st++;else break}return st;
+}
+function cBest(){
+    const data=gD(),keys=Object.keys(data).sort();let b=0,c=0;
+    keys.forEach(k=>{if(F.every(f=>data[k]?.[f.i])){c++;if(c>b)b=c}else c=0});return b;
+}
+function bDots(){
+    const data=gD(),c=document.getElementById('skD');c.innerHTML='';
+    for(let i=6;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);const k=d.toISOString().split('T')[0];const dd=data[k]||{};const a=F.every(f=>dd[f.i]);
+    const dot=document.createElement('div');dot.className='sd'+(a?' f':'')+(i===0?' t':'');dot.textContent=DS[d.getDay()];c.appendChild(dot)}
+}
+
+// ==========================================
+// STATS PAGE
+// ==========================================
+function bStats(){
+    const data=gD(),keys=Object.keys(data);let tp=0;
+    keys.forEach(k=>{tp+=F.filter(f=>data[k]?.[f.i]).length});
+    document.getElementById('eT').textContent=tp;
+    document.getElementById('eD').textContent=keys.length;
+    document.getElementById('eB').textContent=cBest();
+    document.getElementById('eA').textContent=(keys.length?Math.round(tp/(keys.length*5)*100):0)+'%';
+    const bc=document.getElementById('pB');bc.innerHTML='';
+    const cts={};F.forEach(f=>cts[f.i]=0);
+    for(let i=0;i<30;i++){const d=new Date();d.setDate(d.getDate()-i);const k=d.toISOString().split('T')[0];if(data[k])F.forEach(f=>{if(data[k][f.i])cts[f.i]++})}
+    F.forEach(f=>{const p=Math.round(cts[f.i]/30*100);bc.innerHTML+=`<div class="cr"><div class="cl">${f.ic} ${f.n}</div><div class="cbg"><div class="cbf" style="width:${p}%">${p}%</div></div></div>`});
+    const hm=document.getElementById('hM');hm.innerHTML='';
+    DS.forEach(d=>{hm.innerHTML+=`<div class="hh">${d}</div>`});
+    const sd=new Date();sd.setDate(sd.getDate()-27-sd.getDay());
+    for(let i=0;i<28;i++){const d=new Date(sd);d.setDate(sd.getDate()+i);const k=d.toISOString().split('T')[0];const dd=data[k]||{};const c=F.filter(f=>dd[f.i]).length;
+    const cell=document.createElement('div');cell.className=`hc l${c}`+(k===tk()?' tc':'');cell.textContent=d.getDate();hm.appendChild(cell)}
+}
+
+// ==========================================
+// AZKAR
+// ==========================================
+function bAzkar(){
+    const c=document.getElementById('aL'),as=gA(),k=tk();
+    c.innerHTML=AZ.map(z=>{const cur=(as[k]&&as[k][z.i])||0;const pct=Math.min(100,Math.round(cur/z.g*100));
+    return`<div class="cd azc" id="az-${z.i}"><div class="azh"><div class="azt">${z.t}</div><div class="azb" id="ab-${z.i}">${cur}/${z.g}</div></div>
+    <div class="azx">${z.x}</div>
+    <div class="azp"><div class="azpf" id="ap-${z.i}" style="width:${pct}%"></div></div>
+    <div class="aza"><button class="azbn" onclick="event.stopPropagation();cZ('${z.i}',${z.g})" aria-label="عدّ ${z.t}">+</button><div class="azn" id="an-${z.i}">${cur}</div></div>
+    <div style="text-align:center"><button class="azr" onclick="event.stopPropagation();rZ('${z.i}')">إعادة العدّ</button></div></div>`}).join('');
+}
+function cZ(id,g){
+    const a=gA(),k=tk();if(!a[k])a[k]={};const cur=(a[k][id]||0)+1;a[k][id]=cur;sA(a);
+    const el=document.getElementById('an-'+id);if(el)el.textContent=cur;
+    const b=document.getElementById('ab-'+id);if(b)b.textContent=`${cur}/${g}`;
+    const p=document.getElementById('ap-'+id);if(p)p.style.width=Math.min(100,Math.round(cur/g*100))+'%';
+    const s=gS();if(s.vibrate!==false&&navigator.vibrate)navigator.vibrate(30);
+    if(cur===g)toast('✨ أتممت العدد - أحسنت!','gl');
+}
+function rZ(id){const a=gA(),k=tk();if(a[k])a[k][id]=0;sA(a);bAzkar()}
+
+// ==========================================
+// SETTINGS
+// ==========================================
+function lSet(){
+    const s=gS();
+    document.getElementById('t1').classList.toggle('on',s.sunnah!==false);
+    document.getElementById('t2').classList.toggle('on',s.notif===true);
+    document.getElementById('t3').classList.toggle('on',s.celeb!==false);
+    document.getElementById('t4').classList.toggle('on',s.vibrate!==false);
+}
+function tgS(k){
+    const s=gS();
+    if(k==='sunnah'){s.sunnah=!(s.sunnah!==false);document.getElementById('t1').classList.toggle('on',s.sunnah);bSunnah()}
+    else if(k==='notif'){s.notif=!(s.notif===true);document.getElementById('t2').classList.toggle('on',s.notif);if(s.notif&&'Notification'in window)Notification.requestPermission().then(p=>{if(p!=='granted'){s.notif=false;sS(s);document.getElementById('t2').classList.remove('on');toast('❌ لم يتم السماح بالإشعارات','')}})}
+    else if(k==='celeb'){s.celeb=!(s.celeb!==false);document.getElementById('t3').classList.toggle('on',s.celeb)}
+    else if(k==='vibrate'){s.vibrate=!(s.vibrate!==false);document.getElementById('t4').classList.toggle('on',s.vibrate)}
+    sS(s);
+}
+function expD(){
+    const b=new Blob([JSON.stringify({prayers:gD(),azkar:gA(),settings:gS(),exported:new Date().toISOString(),app:'salati-v3'},null,2)],{type:'application/json'});
+    const u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=`salati-backup-${tk()}.json`;a.click();URL.revokeObjectURL(u);toast('📤 تم التصدير بنجاح','');
+}
+function impD(e){
+    const f=e.target.files[0];if(!f)return;const r=new FileReader();
+    r.onload=function(ev){try{const d=JSON.parse(ev.target.result);if(d.prayers)sD(d.prayers);if(d.azkar)sA(d.azkar);if(d.settings)sS(d.settings);toast('📥 تم الاستيراد بنجاح','');init()}catch{toast('❌ ملف غير صالح','')}};
+    r.readAsText(f);e.target.value='';
+}
+function rToday(){const d=gD();delete d[tk()];sD(d);bFard();bSunnah();uProg();toast('🔄 تم إعادة التعيين','')}
+function sMo(){document.getElementById('rMo').classList.add('sh')}
+function hMo(){document.getElementById('rMo').classList.remove('sh')}
+function rAll(){localStorage.removeItem('s_d');localStorage.removeItem('s_a');hMo();init();toast('🗑️ تم حذف البيانات','')}
+
+// ==========================================
+// SHARE
+// ==========================================
+function shareApp(platform){
+    const url=APP_URL;const text=SHARE_TEXT+url;
+    const encodedText=encodeURIComponent(SHARE_TEXT);const encodedUrl=encodeURIComponent(url);
+    switch(platform){
+        case'whatsapp':window.open(`https://wa.me/?text=${encodedText}${encodedUrl}`,'_blank');break;
+        case'telegram':window.open(`https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`,'_blank');break;
+        case'twitter':window.open(`https://twitter.com/intent/tweet?text=${encodedText}${encodedUrl}`,'_blank');break;
+        case'copy':navigator.clipboard?.writeText(text).then(()=>toast('📋 تم نسخ الرابط!','')).catch(()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);toast('📋 تم نسخ الرابط!','')});break;
+        default:if(navigator.share)navigator.share({title:'صلاتي - تطبيق متابعة الصلاة',text:'📿 تطبيق صلاتي لمتابعة الصلاة والأذكار - مجاني لوجه الله',url});
+    }
+}
+
+// ==========================================
+// TOAST
+// ==========================================
+function toast(m,t){const el=document.getElementById('tst');el.textContent=m;el.className='toast'+(t==='gl'?' gl':'');setTimeout(()=>el.classList.add('sh'),10);setTimeout(()=>el.classList.remove('sh'),3000)}
+
+// ==========================================
+// CELEBRATION
+// ==========================================
+function celeb(){
+    const c=document.getElementById('cel'),cols=['#ffd700','#00c853','#ff4081','#2196f3','#ff9800','#e040fb','#69f0ae'];
+    for(let i=0;i<60;i++){const x=document.createElement('div');x.className='conf';x.style.cssText=`left:${Math.random()*100}%;width:${Math.random()*8+4}px;height:${Math.random()*8+4}px;background:${cols[Math.floor(Math.random()*cols.length)]};animation-delay:${Math.random()*1.5}s;animation-duration:${Math.random()*2+2}s;border-radius:${Math.random()>.5?'50%':'2px'}`;c.appendChild(x)}
+    if(navigator.vibrate)navigator.vibrate([100,50,100,50,200]);setTimeout(()=>c.innerHTML='',5000);
+}
+
+// ==========================================
+// PWA
+// ==========================================
+let defP=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();defP=e;document.getElementById('instB').style.display='flex'});
+function instApp(){if(defP){defP.prompt();defP.userChoice.then(r=>{if(r.outcome==='accepted')toast('✅ تم التثبيت!','');defP=null;document.getElementById('instB').style.display='none'})}}
+
+// SERVICE WORKER
+if('serviceWorker'in navigator){
+    const swCode=`
+    const CACHE_NAME='salati-v3';
+    const URLS_TO_CACHE=['/'];
+    self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(URLS_TO_CACHE)).catch(()=>{}));self.skipWaiting()});
+    self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))));self.clients.claim()});
+    self.addEventListener('fetch',e=>{e.respondWith(fetch(e.request).then(r=>{const rc=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,rc)).catch(()=>{});return r}).catch(()=>caches.match(e.request)))});
+    `;
+    try{const blob=new Blob([swCode],{type:'application/javascript'});navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(()=>{})}catch{}
+}
+
+// PWA MANIFEST
+try{
+    const manifest={name:"صلاتي - متابعة الصلاة اليومية",short_name:"صلاتي",description:"تطبيق متابعة الصلاة والأذكار مجاناً",start_url:".",display:"standalone",background_color:"#0c1220",theme_color:"#0c1220",orientation:"portrait",lang:"ar",dir:"rtl",categories:["lifestyle","utilities"],
+    icons:[{src:"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%230c1220'/><text x='256' y='340' font-size='280' text-anchor='middle'>🕌</text></svg>",sizes:"512x512",type:"image/svg+xml",purpose:"any maskable"}]};
+    const mBlob=new Blob([JSON.stringify(manifest)],{type:'application/json'});
+    const mUrl=URL.createObjectURL(mBlob);
+    const link=document.createElement('link');link.rel='manifest';link.href=mUrl;document.head.appendChild(link);
+}catch{}
+
+// ==========================================
+// NEW DAY CHECK
+// ==========================================
+let ld=tk();setInterval(()=>{if(tk()!==ld){ld=tk();init();toast('🌅 يوم جديد - جدد نيتك!','gl')}},60000);
+
+// ==========================================
+// NOTIFICATION REMINDERS
+// ==========================================
+setInterval(()=>{
+    const s=gS();if(!s.notif||!('Notification'in window)||Notification.permission!=='granted')return;
+    const d=gDD(tk()),rem=F.filter(f=>!d[f.i]),h=new Date().getHours();
+    if(rem.length>0&&[5,12,15,18,20].includes(h)){
+        new Notification('📿 تذكير بالصلاة',{body:`متبقي ${rem.length} صلوات: ${rem.map(f=>f.n).join('، ')}`,tag:'salati-reminder'});
+    }
+},30*60*1000);
+
+// ==========================================
+// INIT
+// ==========================================
+function init(){
+    uDate();bFard();bSunnah();uProg();
+    const q=Q[Math.floor(Math.random()*Q.length)];
+    document.getElementById('qT').textContent=q.t;
+    document.getElementById('qS').textContent=q.s;
+    lSet();
+}
+init();
+
+// Track page visibility for accurate day changes
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&tk()!==ld){ld=tk();init();toast('🌅 يوم جديد!','gl')}});
+</script>
+</body>
+</html>
